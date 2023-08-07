@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build":"tsc",
+    "build": "tsc",
     "prepare": "npm run build"
   },
   "keywords": [
@@ -16,5 +16,10 @@
   "devDependencies": {
     "typescript": "^5.1.6"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "brocode.js": "^1.0.0"
+  }
 }
