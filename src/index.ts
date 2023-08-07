@@ -4,7 +4,7 @@ export class Log{
     }
 
     static danger(msg: string){
-        console.log(`%c ${msg}`, 'color: green');
+        console.log(`%c ${msg}`, 'color: red');
 
     }
 
