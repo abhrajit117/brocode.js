@@ -1,5 +1,5 @@
 {
-  "name": "brocode",
+  "name": "brocode.js",
   "version": "1.0.0",
   "description": "a library for colored text",
   "main": "lib/index.js",
